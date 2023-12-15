@@ -1,0 +1,52 @@
+.done-container, .favorite-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  width: 60%;
+}
+
+.done-container p, .favorite-container p {
+  border-left: 1px solid #643c23;
+  border-right: 1px solid #643c23;
+}
+
+.done-container a, .favorite-container a {
+  color: #643c23;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  margin: auto;
+  text-decoration: none;
+  width: 100%;
+}
+
+.done-card, .favorite-card {
+  border-top: 1px solid #643c23;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  margin-bottom: 18%;
+}
+
+.done-title-container, .favorite-title-container {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 0;
+  width: 100%;
+}
+
+.done-img, .favorite-img {
+  width: 100%;
+}
+
+.done-share-btn {
+  background-color: #fae9d9;
+  border: 1px solid #643c23;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  margin: 0;
+  width: 100%;
+}

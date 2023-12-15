@@ -1,0 +1,31 @@
+.profile-email {
+  margin-top: 10%;
+  text-align: center;
+}
+
+.profile-container {
+  display: flex;
+  flex-flow: column wrap;
+  height: 200px;
+  justify-content: space-around;
+  margin-top: 10%;
+  padding: 12px;
+}
+
+.to-favorites-btn, .to-done-btn {
+  background-color: #643c23;
+  border: none;
+  border-radius: 2rem;
+  color: #fae9d9;
+  height: 40px;
+}
+
+.logout-btn {
+  background-color: #fae9d9;
+  border: 1px solid #643c23;
+  border-radius: 2rem;
+  bottom: 0;
+  color: #643c23;
+  height: 40px;
+  width: 100%;
+}

@@ -1,0 +1,27 @@
+.login-form {
+  display: flex;
+  flex-flow: column wrap;
+  height: 200px;
+  justify-content: space-evenly;
+  margin: 50% auto;
+  width: 70%;
+}
+
+.login-form input {
+  border: 1px solid #643c23;
+  border-radius: 7px;
+  height: 30px;
+  padding: 5px;
+}
+
+.login-form button {
+  background-color: #643c23;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  height: 35px;
+}
+
+.login-form button:disabled {
+  background-color: #643c237f;
+}

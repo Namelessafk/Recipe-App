@@ -1,0 +1,55 @@
+.recipe-card {
+  border-bottom: 1px solid #d5bfab;
+  color: #643c23;
+  display: flex;
+  flex-flow: column wrap;
+  font-size: small;
+  height: 250px;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  text-decoration: none;
+  width: 43%;
+}
+
+.recipe-card img {
+  align-self: center;
+  height: 150px;
+  width: 150px;
+}
+
+.card-name {
+  margin: 0;
+  text-align: center;
+}
+
+.card-name h3 {
+  margin: 0;
+  max-width: 95%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.categories-title {
+  border-top: 1px solid #643c23;
+  padding-top: 6px;
+  text-align: center;
+}
+
+.categories-container {
+  align-content: space-around;
+  border-bottom: 1px solid #643c23;
+  display: flex;
+  flex-flow: row wrap;
+  height: 100px;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.categories-container label {
+  width: 40%;
+}
+
+.categories-container label input {
+  margin: 0;
+  margin-left: 9px;
+}

@@ -1,0 +1,18 @@
+.not-found {
+  text-align: center;
+}
+
+.fav-btn-container {
+  background-color: #fae9d9;
+  border: 1px solid #643c23;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  border-top: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.fav-share-btn, .fav-btn {
+  background-color: #fae9d9;
+  border: none;
+}

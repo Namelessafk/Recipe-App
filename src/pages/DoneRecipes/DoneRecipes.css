@@ -1,0 +1,12 @@
+.buttons-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 8%;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.btnDrink, .btnMeal, .btnAll {
+  background-color: #fae9d9;
+  border: none;
+}

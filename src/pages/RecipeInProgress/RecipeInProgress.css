@@ -1,0 +1,11 @@
+.ingredients-list {
+  margin-bottom: 15%;
+}
+
+.checked-ingredient {
+  text-decoration: line-through solid black;
+}
+
+button {
+  cursor: pointer;
+}

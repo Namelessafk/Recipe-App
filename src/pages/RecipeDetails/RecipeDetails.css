@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+}
+
+.title-container {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+.recipe-img {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.favorite-btn, .share-btn {
+  background-color: #fae9d9;
+  border: none;
+  margin-left: 3%;
+  padding: 0;
+}
+
+.instructions {
+  margin-bottom: 10%;
+  margin-top: 5%;
+  padding: 7px;
+  text-align: justify;
+}
+
+.ingredients-h3 {
+  margin-bottom: 2%;
+  margin-left: 7%;
+  width: fit-content;
+}
+
+.ingredients-list li {
+  margin-bottom: 2%;
+  margin-left: 1%;
+}
+
+.ytb-h1 {
+  text-align: center;
+}
+
+.youtube-frame {
+  border: none;
+  height: 300px;
+  padding: 5%;
+  width: 90%;
+}
+
+.btn-start-recipe {
+  background-color: #643c23;
+  border: none;
+  bottom: 0;
+  color: #fae9d9;
+  height: 30px;
+  position: fixed;
+  width: 100%;
+}
+
+.carousel-title {
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.carousel-container {
+  display: flex;
+  margin-bottom: 20%;
+  overflow-x: auto;
+  width: 100%;
+}
+
+.btn-start-recipe:disabled {
+  background-color: #643c23ae;
+}
